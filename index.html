@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
 <body>
+<nav>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
+
 <h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<p>I'm a site by Dinu W. hosted with GitHub Pages.</p>
 </body>
 </html>
