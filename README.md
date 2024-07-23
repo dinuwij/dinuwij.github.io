@@ -1,2 +1,2 @@
 # dinuwij.github.io
-testing out github pages
+testing out github pages for dinuwij
